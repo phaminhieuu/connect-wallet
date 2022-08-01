@@ -1,0 +1,85 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	/* overflow: hidden; */
+}
+
+/* body::before {
+	content: '';
+	position: fixed;
+	top: 0;
+	background-color: black;
+	opacity: 0.22;
+	width: 100vw;
+	height: 100vh;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+} */
+
+body.stop-scroll {
+	overflow: hidden;
+	height: 100vh;
+}
+
+/* body.forbitNFTs__bg-white-blue {
+	background-image: radial-gradient(
+		circle at center top,
+		rgb(195 241 255 / 30%),
+		rgba(255, 255, 255, 0.72) 100%
+	);
+}
+
+.forbitNFTs__bg-white-blue p,
+.forbitNFTs__bg-white-blue span {
+	color: #186ca5;
+	font-weight: 600;
+}
+.active-text-light {
+	color: #186ca5 !important;
+	font-weight: 600 !important;
+} */
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none !important;
+}
+ul {
+	margin: 0;
+}
+p {
+	margin: 0;
+}
+body::-webkit-scrollbar {
+	width: 8px;
+	height: 4px;
+}
+
+body::-webkit-scrollbar-track {
+	background: #0c5599;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #65b8ff;
+}
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #65b8ff #0c5599;
+}
+@media screen and (max-width: 541px) {
+	body::-webkit-scrollbar {
+		width: 2px;
+	}
+}
+@media screen and (max-width: 321px) {
+	body::-webkit-scrollbar {
+		width: 1px;
+	}
+}
